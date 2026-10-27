@@ -22,17 +22,19 @@ export default function PracticeRoom() {
 
   useEffect(() => {
     if (mazoId) {
-      // Si hay un mazoId, buscamos ese mazo específico en el navegador
       const mazosGuardados = JSON.parse(localStorage.getItem('mis_mazos') || '[]');
       const mazoActual = mazosGuardados.find(m => m.id.toString() === mazoId);
       
       if (mazoActual) {
-        setPalabras(mazoActual.palabras);
+        // Mezclamos aleatoriamente el mazo personalizado
+        const aleatorias = [...mazoActual.palabras].sort(() => 0.5 - Math.random());
+        setPalabras(aleatorias);
       }
     } else {
-      // Comportamiento normal: cargamos desde el JSON estático
+      // Filtramos por nivel, mezclamos aleatoriamente y cortamos la cantidad
       const palabrasFiltradas = vocabularioBase
         .filter(p => p.hsk_nivel === nivel)
+        .sort(() => 0.5 - Math.random())
         .slice(0, cantidad);
       
       setPalabras(palabrasFiltradas);
