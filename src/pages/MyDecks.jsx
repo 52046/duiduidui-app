@@ -80,7 +80,7 @@ export default function MyDecks() {
             <h1 className="text-3xl font-bold text-gray-800">Mis Mazos</h1>
             <button 
               onClick={() => setVista('crear')}
-              className="bg-red-600 text-white px-5 py-2.5 rounded-lg font-bold hover:bg-red-700 transition shadow-sm"
+              className="bg-emerald-600 text-white px-5 py-2.5 rounded-lg font-bold hover:bg-emerald-700 transition shadow-sm"
             >
               + Nuevo Mazo
             </button>
@@ -96,11 +96,11 @@ export default function MyDecks() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               {mazos.map(mazo => (
                 <div key={mazo.id} className="bg-white p-6 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition cursor-pointer group">
-                  <h3 className="font-bold text-xl text-gray-800 mb-1 group-hover:text-red-600 transition">{mazo.nombre}</h3>
+                  <h3 className="font-bold text-xl text-gray-800 mb-1 group-hover:text-emerald-600 transition">{mazo.nombre}</h3>
                   <p className="text-sm text-gray-500 mb-4">{mazo.palabras.length} palabras • Creado el {mazo.fecha}</p>
                   <button 
                     onClick={() => setMazoAEstudiar(mazo)}
-                    className="text-red-600 text-sm font-semibold hover:underline"
+                    className="text-emerald-600 text-sm font-semibold hover:underline"
                   >
                     Estudiar ahora →
                   </button>
@@ -129,7 +129,7 @@ export default function MyDecks() {
                 value={nombreMazo}
                 onChange={(e) => setNombreMazo(e.target.value)}
                 placeholder="Ej. Vocabulario del Trabajo"
-                className="w-full p-3 border border-gray-200 rounded-lg bg-gray-50 focus:ring-2 focus:ring-red-500 focus:outline-none mb-6"
+                className="w-full p-3 border border-gray-200 rounded-lg bg-gray-50 focus:ring-2 focus:ring-emerald-500 focus:outline-none mb-6"
               />
 
               <label className="block text-sm font-semibold text-gray-700 mb-2">Buscar palabras</label>
@@ -138,7 +138,7 @@ export default function MyDecks() {
                 value={busqueda}
                 onChange={(e) => setBusqueda(e.target.value)}
                 placeholder="Busca por hanzi, pinyin o significado..."
-                className="w-full p-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none mb-3"
+                className="w-full p-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:outline-none mb-3"
               />
 
               {/* Resultados de búsqueda */}
@@ -151,7 +151,7 @@ export default function MyDecks() {
                     </div>
                     <button 
                       onClick={() => agregarPalabra(palabra)}
-                      className="text-blue-600 hover:bg-blue-50 px-3 py-1 rounded text-sm font-bold transition"
+                      className="text-emerald-600 hover:bg-emerald-50 px-3 py-1 rounded text-sm font-bold transition"
                     >
                       Añadir
                     </button>
@@ -175,7 +175,7 @@ export default function MyDecks() {
                       </span>
                       <button 
                         onClick={() => quitarPalabra(palabra.id)}
-                        className="text-red-400 hover:text-red-600 px-2 py-1 rounded text-xs font-bold transition"
+                        className="text-emerald-400 hover:text-emerald-600 px-2 py-1 rounded text-xs font-bold transition"
                       >
                         ✕
                       </button>
@@ -216,7 +216,7 @@ export default function MyDecks() {
                 <button
                   key={m}
                   onClick={() => navigate(`/practica?modo=${m}&mazoId=${mazoAEstudiar.id}`)}
-                  className="py-3 rounded-xl capitalize font-medium transition bg-gray-50 text-gray-700 border border-gray-200 hover:bg-red-50 hover:text-red-600 hover:border-red-300"
+                  className="py-3 rounded-xl capitalize font-medium transition bg-gray-50 text-gray-700 border border-gray-200 hover:bg-emerald-50 hover:text-emerald-600 hover:border-emerald-300"
                 >
                   {m}
                 </button>

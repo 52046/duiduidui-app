@@ -27,7 +27,7 @@ export default function Home() {
                 onClick={() => setModo(m)}
                 className={`py-3 px-4 rounded-lg capitalize font-medium transition ${
                   modo === m 
-                    ? 'bg-red-600 text-white shadow-md' 
+                    ? 'bg-emerald-600 text-white shadow-md' 
                     : 'bg-gray-50 text-gray-600 hover:bg-gray-100 border border-gray-200'
                 }`}
               >
@@ -43,7 +43,7 @@ export default function Home() {
           <select 
             value={nivel}
             onChange={(e) => setNivel(Number(e.target.value))}
-            className="w-full p-3 border border-gray-200 rounded-lg bg-gray-50 focus:outline-none focus:ring-2 focus:ring-red-500"
+            className="w-full p-3 border border-gray-200 rounded-lg bg-gray-50 focus:outline-none focus:ring-2 focus:ring-emerald-500"
           >
             {[1, 2, 3, 4, 5, 6, 7, 8, 9].map(n => (
               <option key={n} value={n}>HSK Nivel {n}</option>
@@ -61,7 +61,7 @@ export default function Home() {
                 onClick={() => setCantidad(c)}
                 className={`flex-1 py-2 rounded-lg font-medium transition ${
                   cantidad === c 
-                    ? 'bg-red-100 text-red-700 border-2 border-red-500' 
+                    ? 'bg-emerald-100 text-emerald-700 border-2 border-emerald-500' 
                     : 'bg-gray-50 text-gray-600 border border-gray-200 hover:bg-gray-100'
                 }`}
               >
@@ -74,7 +74,7 @@ export default function Home() {
         {/* Botón de Inicio */}
         <button 
           onClick={iniciarPractica}
-          className="w-full mt-4 bg-red-600 hover:bg-red-700 text-white font-bold py-4 rounded-xl shadow-lg transition transform hover:-translate-y-1 text-lg"
+          className="w-full mt-4 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-4 rounded-xl shadow-lg transition transform hover:-translate-y-1 text-lg"
         >
           ¡Comenzar Práctica!
         </button>
