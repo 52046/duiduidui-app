@@ -1,26 +1,27 @@
 [
-  {
-    "id": "hsk3_1_001",
-    "hanzi": "爱",
-    "pinyin": "ài",
-    "significado": ["amar", "amor"],
-    "categorias": ["verbo", "emoción"],
-    "hsk_nivel": 1
-  },
-  {
-    "id": "hsk3_1_002",
-    "hanzi": "八",
-    "pinyin": "bā",
-    "significado": ["ocho", "8"],
-    "categorias": ["número"],
-    "hsk_nivel": 1
-  },
-  {
-    "id": "hsk3_1_003",
-    "hanzi": "爸爸",
-    "pinyin": "bàba",
-    "significado": ["papá", "padre"],
-    "categorias": ["sustantivo", "familia"],
-    "hsk_nivel": 1
-  }
+  { "id": "hsk3_1_001", "hanzi": "爱", "pinyin": "ài", "significado": ["amar", "amor"], "categorias": ["verbo", "emoción"], "hsk_nivel": 1 },
+  { "id": "hsk3_1_002", "hanzi": "八", "pinyin": "bā", "significado": ["ocho", "8"], "categorias": ["número"], "hsk_nivel": 1 },
+  { "id": "hsk3_1_003", "hanzi": "爸爸", "pinyin": "bàba", "significado": ["papá", "padre"], "categorias": ["sustantivo", "familia"], "hsk_nivel": 1 },
+  { "id": "hsk3_1_004", "hanzi": "吧", "pinyin": "ba", "significado": ["(partícula de sugerencia)"], "categorias": ["partícula"], "hsk_nivel": 1 },
+  { "id": "hsk3_1_005", "hanzi": "白", "pinyin": "bái", "significado": ["blanco"], "categorias": ["adjetivo", "color"], "hsk_nivel": 1 },
+  { "id": "hsk3_1_006", "hanzi": "百", "pinyin": "bǎi", "significado": ["cien", "100"], "categorias": ["número"], "hsk_nivel": 1 },
+  { "id": "hsk3_1_007", "hanzi": "帮助", "pinyin": "bāngzhù", "significado": ["ayudar", "ayuda"], "categorias": ["verbo", "sustantivo"], "hsk_nivel": 1 },
+  { "id": "hsk3_1_008", "hanzi": "包子", "pinyin": "bāozi", "significado": ["bollo relleno al vapor"], "categorias": ["sustantivo", "comida"], "hsk_nivel": 1 },
+  { "id": "hsk3_1_009", "hanzi": "杯子", "pinyin": "bēizi", "significado": ["vaso", "taza"], "categorias": ["sustantivo", "objeto"], "hsk_nivel": 1 },
+  { "id": "hsk3_1_010", "hanzi": "北京", "pinyin": "Běijīng", "significado": ["Beijing", "Pekín"], "categorias": ["sustantivo", "lugar"], "hsk_nivel": 1 },
+  { "id": "hsk3_1_011", "hanzi": "本", "pinyin": "běn", "significado": ["(clasificador para libros)"], "categorias": ["clasificador"], "hsk_nivel": 1 },
+  { "id": "hsk3_1_012", "hanzi": "不", "pinyin": "bù", "significado": ["no"], "categorias": ["adverbio"], "hsk_nivel": 1 },
+  { "id": "hsk3_1_013", "hanzi": "大", "pinyin": "dà", "significado": ["grande"], "categorias": ["adjetivo"], "hsk_nivel": 1 },
+  { "id": "hsk3_1_014", "hanzi": "打", "pinyin": "dǎ", "significado": ["golpear", "jugar (con las manos)"], "categorias": ["verbo"], "hsk_nivel": 1 },
+  { "id": "hsk3_1_015", "hanzi": "打电话", "pinyin": "dǎ diànhuà", "significado": ["llamar por teléfono"], "categorias": ["verbo", "frase"], "hsk_nivel": 1 },
+  { "id": "hsk3_1_016", "hanzi": "的", "pinyin": "de", "significado": ["(partícula posesiva)"], "categorias": ["partícula"], "hsk_nivel": 1 },
+  { "id": "hsk3_1_017", "hanzi": "点", "pinyin": "diǎn", "significado": ["punto", "en punto (hora)"], "categorias": ["sustantivo", "tiempo"], "hsk_nivel": 1 },
+  { "id": "hsk3_1_018", "hanzi": "电脑", "pinyin": "diànnǎo", "significado": ["computadora"], "categorias": ["sustantivo", "tecnología"], "hsk_nivel": 1 },
+  { "id": "hsk3_1_019", "hanzi": "电视", "pinyin": "diànshì", "significado": ["televisión"], "categorias": ["sustantivo", "tecnología"], "hsk_nivel": 1 },
+  { "id": "hsk3_1_020", "hanzi": "东西", "pinyin": "dōngxi", "significado": ["cosa", "objeto"], "categorias": ["sustantivo"], "hsk_nivel": 1 },
+  { "id": "hsk3_1_021", "hanzi": "都", "pinyin": "dōu", "significado": ["todos", "ambos"], "categorias": ["adverbio"], "hsk_nivel": 1 },
+  { "id": "hsk3_1_022", "hanzi": "读", "pinyin": "dú", "significado": ["leer"], "categorias": ["verbo"], "hsk_nivel": 1 },
+  { "id": "hsk3_1_023", "hanzi": "对", "pinyin": "duì", "significado": ["correcto", "hacia"], "categorias": ["adjetivo", "preposición"], "hsk_nivel": 1 },
+  { "id": "hsk3_1_024", "hanzi": "多", "pinyin": "duō", "significado": ["mucho", "más"], "categorias": ["adjetivo"], "hsk_nivel": 1 },
+  { "id": "hsk3_1_025", "hanzi": "多少", "pinyin": "duōshao", "significado": ["cuánto"], "categorias": ["pronombre"], "hsk_nivel": 1 }
 ]
