@@ -1,0 +1,26 @@
+[
+  {
+    "id": "hsk3_1_001",
+    "hanzi": "爱",
+    "pinyin": "ài",
+    "significado": ["amar", "amor"],
+    "categorias": ["verbo", "emoción"],
+    "hsk_nivel": 1
+  },
+  {
+    "id": "hsk3_1_002",
+    "hanzi": "八",
+    "pinyin": "bā",
+    "significado": ["ocho", "8"],
+    "categorias": ["número"],
+    "hsk_nivel": 1
+  },
+  {
+    "id": "hsk3_1_003",
+    "hanzi": "爸爸",
+    "pinyin": "bàba",
+    "significado": ["papá", "padre"],
+    "categorias": ["sustantivo", "familia"],
+    "hsk_nivel": 1
+  }
+]
